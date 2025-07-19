@@ -92,7 +92,7 @@ local UIList = Instance.new("UIListLayout", DropdownMenu)
 UIList.Padding = UDim.new(0, 2)
 UIList.SortOrder = Enum.SortOrder.LayoutOrder
 
-local PetList = {"Raccoon", "Spinosaurus", "Disco Bee", "T-Rex", "Butterfly", "Dragonfly"}
+local PetList = {"Raccoon", "Kitsune", "Spinosaurus", "Disco Bee", "T-Rex", "Butterfly", "Dragonfly"}
 local SelectedPet = nil
 
 for _, petName in ipairs(PetList) do
